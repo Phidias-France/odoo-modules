@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="generate_public_holiday_fr_view" model="ir.ui.view">
+        <field name="name">wizard.public_holiday.fr.form</field>
+        <field name="model">wizard.public_holiday.fr</field>
+        <field name="arch" type="xml">
+            <form string="Generate Public Holiday France">
+                <group>
+                    <field name="res_id" invisible="1"/>
+                    <field name="res_model" invisible="1"/>
+                    <field name="zone"/>
+                </group>
+                <footer>
+                    <button string="Generate" class="btn-primary" name="generate" type="object" />
+                    <button string="Close" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <act_window
+            name="Generate public holiday"
+            res_model="wizard.public_holiday.fr"
+            binding_model="resource.calendar"
+            binding_views="form"
+            view_mode="form"
+            target="new"
+            view_id="generate_public_holiday_fr_view"
+            id="action_generate_public_holiday_fr"
+    />
+
+</odoo>

@@ -1,0 +1,92 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* phi_france_jours_ferie
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-08 16:02+0000\n"
+"PO-Revision-Date: 2020-06-08 16:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: phi_france_jours_ferie
+#: model_terms:ir.ui.view,arch_db:phi_france_jours_ferie.generate_public_holiday_fr_view
+msgid "Close"
+msgstr "Annuler"
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__display_name
+msgid "Display Name"
+msgstr "Nom"
+
+#. module: phi_france_jours_ferie
+#: model_terms:ir.ui.view,arch_db:phi_france_jours_ferie.generate_public_holiday_fr_view
+msgid "Generate"
+msgstr "Générer"
+
+#. module: phi_france_jours_ferie
+#: model_terms:ir.ui.view,arch_db:phi_france_jours_ferie.generate_public_holiday_fr_view
+msgid "Generate Public Holiday France"
+msgstr "Générer Jours Fériés France"
+
+#. module: phi_france_jours_ferie
+#: model:ir.actions.act_window,name:phi_france_jours_ferie.action_generate_public_holiday_fr
+#: model:ir.model,name:phi_france_jours_ferie.model_wizard_public_holiday_fr
+msgid "Generate public holiday"
+msgstr "Générer Jours Fériés France"
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__id
+msgid "ID"
+msgstr ""
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr____last_update
+msgid "Last Modified on"
+msgstr "Modifié le"
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__write_uid
+msgid "Last Updated by"
+msgstr "Modifié par"
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__write_date
+msgid "Last Updated on"
+msgstr "Modifié le"
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__res_id
+msgid "Related Document ID"
+msgstr ""
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__res_model
+msgid "Related Document Model"
+msgstr ""
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__year_min
+msgid "Year start"
+msgstr "Année Début"
+
+#. module: phi_france_jours_ferie
+#: model:ir.model.fields,field_description:phi_france_jours_ferie.field_wizard_public_holiday_fr__year_max
+msgid "Year stop"
+msgstr "Année Fin"
