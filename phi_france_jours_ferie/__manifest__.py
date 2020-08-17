@@ -13,7 +13,7 @@
     'author': "Phidias",
     'website': "http://www.phidias.fr",
     'category': 'Extra Tools',
-    'version': '13.0.0.1',
+    'version': '13.0.0.2',
     'license': 'LGPL-3',
     'installable': True,
     'application': False,
